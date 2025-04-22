@@ -1,0 +1,5 @@
+.qodo
+.ruff_cache
+.venv
+/student_exam_data.csv
+
