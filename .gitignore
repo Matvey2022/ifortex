@@ -1,5 +1,12 @@
 .qodo
 .ruff_cache
 .venv
-/student_exam_data.csv
 
+
+__pycache__
+
+catboost_info
+mlruns
+
+image-1.png
+image.png

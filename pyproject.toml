@@ -1,14 +1,23 @@
 [project]
 name = "ifortex"
 version = "0.1.0"
-description = "Add your description here"
+description = "I'll create an app that will be able to predict exam results"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "catboost>=1.2.8",
     "fastapi>=0.115.12",
-    "ipykernel>=6.29.5",
     "mlflow>=2.21.3",
+    "numpy>=2.2.5",
     "optuna>=4.3.0",
     "pandas>=2.2.3",
+    "pydantic>=2.11.3",
     "scikit-learn>=1.6.1",
+    "uvicorn>=0.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "ipykernel>=6.29.5",
 ]
